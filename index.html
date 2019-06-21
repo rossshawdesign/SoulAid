@@ -1,0 +1,3202 @@
+<html>
+<head>
+  <title>SOUL AID - DAILY INSPIRATION</title>
+ <!-- <link rel="icon" href="favicon.png" type="image/x-icon"> -->
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<meta name = "viewport" content ="width=device-width, user-scalable=no">
+    
+</head>
+<body>   
+    
+    <div id="headerbar">
+        
+        <div id="HOMEheaderbar" class="HOMEHEADactive">
+            
+        <a id="HOMEbacktosite" href="https://rossshawdesign.com/"> <img class="backtositeimg" src="https://rossshawdesigncom.files.wordpress.com/2019/05/arrow_button-1.png"> </a>
+        
+        <input type="image" class="headerbarlogo" src= "https://rossshawdesigncom.files.wordpress.com/2019/05/soul_aid_final_title_logo-nopadding.png" onClick="document.location.reload(true)">
+        
+        <div id="HOMEhelpbutton" > <img id="headerbarhelp" src="https://rossshawdesigncom.files.wordpress.com/2019/05/help_button.png"> </div>
+        
+        </div>
+      
+        
+       <div id="POPUPheaderbar" class="POPUPhidden">
+           
+         <a id="POPUPbacktohome"> <img class="backtohomeimg" src="https://rossshawdesigncom.files.wordpress.com/2019/05/arrow_button-1.png"> </a>
+        
+        <div id="POPUPimagegallerytitle" ><img class="imagegallerytitle"src=https://rossshawdesigncom.files.wordpress.com/2019/06/soulaid-imagegallery.jpg> </div>
+        
+        <div id="POPUPhideheader"><div id="PUhideheadertext">HIDE</div></div>
+    </div>
+        
+        
+    </div>
+
+    
+    
+    <div id="howtousebig" class="closed">
+        <div class="howtousecontents">
+            <div class="howtouse"> 
+        <div class="howto-box">
+            <img src=https://rossshawdesigncom.files.wordpress.com/2019/05/minus_button.png>
+            <p>HIDE TEXT</p>
+        </div>
+        <div class="howto-box">
+            <img src=https://rossshawdesigncom.files.wordpress.com/2019/05/dots_button.png>
+            <p>FULL SCREEN</p>
+        </div>
+        <div class="howto-box">
+            <img src=https://rossshawdesigncom.files.wordpress.com/2019/05/arrow_button-1.png>
+            <p>THE IMAGE GALLERY</p>
+        </div>
+        </div>
+        <div class="howto-bottomtext">
+            
+            <div class="howtolink"></div>
+                
+            <a id="howtoclose">HIDE</a>
+            
+            <div class="howtolink">
+                   <a class="howtotextitem" href="https://www.instagram.com/rossshawdesign/">MORE FROM<br/> SOUL AID</a>
+            </div>
+        </div>
+       
+      
+       
+        
+        </div>
+    </div>
+    
+<script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    
+    <script>
+    var quotes = [
+    "I AM THE GREATEST, I SAID THAT EVEN BEFORE I KNEW I WAS",
+    "BE THE CHANGE THAT YOU WISH TO SEE IN THE WORLD",
+    "WHILE THERE IS LIFE, THERE IS HOPE",
+    "WHAT YOU FOCUS ON GROWS",
+    "THERE ARE NO PROBLEMS ONLY SOLUTIONS",
+    "DO WHAT YOU CAN'T",
+    "WORK HARD IN SILENCE, LET YOUR SUCCESS BE YOUR NOISE",
+    "THE TROUBLE IS YOU THINK YOU HAVE TIME",
+    "ACTION IS THE FOUNDATIONAL KEY TO ALL SUCCESS",
+    "THE MOST DANGEROUS THING YOU CAN DO IN LIFE IS PLAY IT SAFE",
+    "EFFORT IS GROSSLY UNDER-RATED",
+    "EVERYONE IS AN ASS UNTIL THEY'RE A PIONEER",
+    "I'M NICE AT PING PONG",
+    "WE ARE WHAT WE REPEATEDLY DO, EXCELLENCE, THEREFORE, IS NOT AN ACT, BUT A HABIT",
+    "IT'S NOT THAT I AM SO SMART, IT'S JUST THAT I STAY WITH PROBLEMS LONGER",
+    "IT ALWAYS SEEMS IMPOSSIBLE UNTIL IT'S DONE",
+    "CHAMPIONS KEEP PLAYING UNTIL THEY GET IT RIGHT",
+    "THANKFULLY, PERSISTENCE IS A GREAT SUBSTITUTE FOR TALENT",
+    "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY",
+    "LIFE IS 10% WHAT HAPPENS TO YOU AND 90% HOW YOU REACT TO IT",
+    "IF OPPORTUNITY DOESN'T KNOCK, BUILD A DOOR",
+    "THE BEST REVENGE IS MASSIVE SUCCESS",
+    "I DON'T WANT TO SURVIVE, I WANT TO LIVE",
+    "A GOAL IS A DREAM WITH A DEADLINE",
+    "MOTIVATION IS WHAT GETS YOU START, HABIT IS WHAT KEEPS YOU GOING",
+    "FALL DOWN SEVEN TIME, GET UP EIGHT",
+    "CARPE DIEM, SEIZE THE DAY, BOYS",
+    "SCREW IT, LET'S DO IT",
+    "YOU MISS 100% OF THE SHOTS YOU DON'T TAKE",
+    "THE SECRET TO GETTING AHEAD IS GETTING STARTED",
+    "NEVER FALL IN LOVE WITH AN IDEA, THEY'RE WHORES, IF THE ONE YOU ARE WITH ISN'T DOING THE JOB, THERE IS ALWAYS, ALWAYS, ALWAYS ANOTHER",
+    "GREAT ACHIEVEMENT IS USUALLY BORN OF GREAT SACRIFICE, AND IS NEVER THE RESULT OF SELFISHNESS",
+    "STAY HUNGRY, STAY FOOLISH",
+    "YOU ONLY LIVE ONCE, BUT IF YOU DO IT RIGHT, ONCE IS ENOUGH",
+    "EVERYTHING YOU CAN IMAGINE IS REAL",
+    "A WINNER IS JUST A LOSER WHO TRIED ONE MORE TIME",
+    "SUCCESS IS THE SUM OF SMALL EFFORTS, REPEATED DAY IN AND DAY OUT",
+    "THE MAN WHO MOVES A MOUNTAIN BEGINS BY CARRYING AWAY SMALL STONES",
+    "ONCE YOU LEARN TO QUIT, IT BECOMES A HABIT",
+    "WE WILL EITHER FIND A WAY OR MAKE ONE",
+    "IF YOU ARE GOING THROUGH HELL, KEEP GOING",
+    "JUST DO IT",
+    "NEVER GIVE UP, NEVER SURRENDER!",
+    "BIG RESULTS REQUIRE BIG AMBITIONS",
+    "IF YOU DO NOT ASK, THE ANSWER IS ALWAYS NO",
+    "ALWAYS REMEMBER, YOUR FOCUS DETERMINES YOUR REALITY",
+    "CHASE THE VISION, NOT THE MONEY, THE MONEY WILL END UP FOLLOWING YOU",
+    "DO NOT BE EMBARRASSED BY YOUR FAILURES, LEARN FROM THEM AND START AGAIN",
+    "PLEASE THINK ABOUT YOUR LEGACY, BECAUSE YOU'RE WRITING IT EVERY DAY",
+    "THE VALUE OF AN IDEA LIES IN THE USING OF IT",
+    "THE BEST VISION IS INSIGHT",
+    "OUR LIFE IS FRITTERED AWAY BY DETAIL, SIMPLIFY, SIMPLIFY",
+    "WE DON'T MAKE MOVIES TO MAKE MONEY, WE MAKE MONEY TO MAKE MORE MOVIES",
+    "PRICE IS WHAT YOU PAY, VALUE IS WHAT YOU GET",
+    "IF YOU CAN NOT MAKE IT GOOD, AT LEAST MAKE IT LOOK GOOD",
+    "TO FIND YOURSELF, THINK FOR YOURSELF",
+    "STRONG MINDS DISCUSS IDEAS, AVERAGE MINDS DISCUSS EVENTS, WEAK MINDS DISCUSS PEOPLE",
+    "THE ONLY TRUE WISDOM IS IN KNOWING YOU KNOW NOTHING",
+    "BE KIND, FOR EVERYONE YOU MEET IS FIGHTING A HARD BATTLE",
+    "CONTENTMENT IS NATURAL WEALTH, LUXURY IS ARTIFICIAL POVERTY",
+    "YOUR 'I CAN' IS MORE IMPORTANT THAN YOUR IQ",
+    "THE KEY TO SUCCESSFUL LEADERSHIP IS INFLUENCE, NOT AUTHORITY",
+    "NOT ALL READERS ARE LEADERS, BUT ALL LEADERS ARE READERS",
+    "A LEADER IS A DEALER IN HOPE",
+    "A PERSON WHO IS QUIETLY CONFIDENT MAKES THE BEST LEADER",
+    "HAPPINESS DEPENDS UPON OURSELVES",
+    "DO NOT CRY BECAUSE IT'S OVER, SMILE BECAUSE IT HAPPENED",
+    "HAPPINESS IS ONLY REAL WHEN SHARED",
+    "LIFE BEGINS AT THE END OF YOUR COMFORT ZONE",
+    "THE GREATEST PLEASURE IN LIFE IS DOING WHAT PEOPLE SAY YOU CANNOT DO",
+    "IF PEOPLE ARE NOT LAUGHING AT YOUR GOALS, YOUR GOALS ARE TOO SMALL",
+    "HARD WORK BEATS TALENT WHEN TALENT DOES NOT WORK HARD",
+    "I AM NOT WHAT HAPPENED TO ME, I AM WHAT I CHOOSE TO BECOME",
+    "DOUBT KILLS MORE DREAMS THAN FAILURE EVER WILL",
+    "FOCUS ON THE SOLUTION NOT ON THE PROBLEM",
+    "IGNORE THE NOISE - FOCUS ON YOUR WORK",
+    "FOCUS ON YOUR STRENGTHS, NOT YOUR WEAKNESSES",
+    "FOCUS LIKE A LASER, NOT A FLASHLIGHT",
+    "THE SECRET TO LIVING IS GIVING",
+    "WHERE FOCUS GOES, ENERGY FLOWS",
+    "MAKE IT HAPPEN NOW, NOT TOMORROW, TOMORROW IS A LOSERS EXCUSE",
+    "DISCIPLINE IS THE BRIDGE BETWEEN GOALS AND ACCOMPLISHMENT",
+    "THE BEST WAY TO PREDICT THE FUTURE IS TO CREATE IT",
+    "GO BIG OR GO HOME",
+    "QUALITY MEANS DOING IT RIGHT WHEN NO ONE IS LOOKING",
+    "ANYONE WHO HAS NEVER MADE A MISTAKE HAS NEVER TRIED ANYTHING NEW",
+    "IF YOU ARE NOT MAKING WAVES, YOU ARE NOT KICKING HARD ENOUGH",
+    "WHEREVER YOU GO, GO WITH ALL YOUR HEART",
+    "FIND WHAT YOU LOVE AND LET IT KILL YOU",
+    "A TRUE ENTREPRENEUR IS A DOER NOT A DREAMER",
+    "IF YOU CAN DREAM IT, YOU CAN DO IT",
+    "IT'S KIND OF FUN TO DO THE IMPOSSIBLE",
+    "NUMBING THE PAIN FOR A WHILE WILL MAKE IT WORSE WHEN YOU FINALLY FEEL IT",
+    "TO BELIEVE IN YOU WHEN NO ONE BELIEVES IN YOU IS TO START YOUR RISE TO GENIUS",
+    "EVERY MASTER WAS A BEGINNER, EVERY PRO, ONCE AN AMATEUR",
+    "WAKE UP WITH DETERMINATION, GO TO BED WITH SATISFACTION",
+    "GOOD, BETTER, BEST, NEVER LET IT REST, 'TIL YOUR GOOD IS BETTER AND YOUR BETTER IS BEST",
+    "WE SHALL NEVER KNOW ALL THE GOOD THAT A SIMPLE SMILE CAN DO",
+    "WHEN YOU THINK POSITIVE, GOOD THINGS HAPPEN",
+    "NO MAN HAS A GOOD ENOUGH MEMORY TO BE A SUCCESSFUL LIAR",
+    "WHATEVER YOU ARE, BE A GOOD ONE",
+    "THERE IS NOTHING EITHER GOOD OR BAD BUT THINKING MAKES IT SO",
+    "THE ROOTS OF ALL GOODNESS LIE IN THE SOIL OF APPRECIATION FOR GOODNESS",
+    "TO ENJOY THE GLOW OF GOOD HEALTH, YOU MUST EXERCISE",
+    "GOOD HEALTH AND GOOD SENSE ARE TWO OF LIFE'S GREATEST BLESSINGS",
+    "YOUR DIET IS A BANK ACCOUNT, GOOD FOOD CHOICES ARE GOOD INVESTMENTS",
+    "EACH DAY, I COME IN WITH A POSITIVE ATTITUDE, TRYING TO GET BETTER",
+    "LOOK DEEP INTO NATURE, AND THEN YOU WILL UNDERSTAND EVERYTHING BETTER",
+    "IT'S BETTER TO BE A LION FOR A DAY THAN A SHEEP ALL YOUR LIFE",
+    "WELL DONE IS BETTER THAN WELL SAID",
+    "SILENCE IS BETTER THAN UNMEANING WORDS",
+    "LOVE IS A BETTER TEACHER THAN DUTY",
+    "DREAMS ARE NECESSARY TO LIFE",
+    "A HEART WITHOUT DREAMS IS LIKE A BIRD WITHOUT FEATHERS",
+    "I COULDN'T FIND THE SPORTS CAR OF MY DREAMS, SO I BUILT IT MYSELF",
+    "HELP OTHERS ACHIEVE THEIR DREAMS AND YOU WILL ACHIEVE YOURS",
+    "SLEEP IS THE BEST MEDITATION",
+    "YOU ARE GIVING IT TOO MUCH RESPECT",
+    "I DREAM OF PAINTING AND THEN I PAINT MY DREAM",
+    "WE CAN'T HELP EVERYONE, BUT EVERYONE CAN HELP SOMEONE",
+    "WHAT WE RESIST PERSISTS",
+    "BEAUTY IS POWER; A SMILE IS IT'S SWORD",
+    "KNOWLEDGE WILL GIVE YOU POWER, BUT CHARACTER RESPECT",
+    "TRUTH IS POWERFUL AND IT PREVAILS",
+    "THE POWER OF IMAGINATION MAKES US INFINITE",
+    "DEVELOP A PASSION FOR LEARNING, IF YOU DO, YOU WILL NEVER CEASE TO GROW",
+    "CHANGE IS THE END RESULT OF ALL TRUE LEARNING",
+    "THE HIGHEST RESULT OF EDUCATION IS TOLERANCE",
+    "A PERSON WHO WILL NOT READ HAS NO ADVANTAGE ONE WHO CAN'T READ",
+    "CHANGE IS THE END RESULT OF ALL TRUE LEARNING",
+    "I AM STILL LEARNING",
+    "RESEARCH IS CREATING NEW KNOWLEDGE",
+    "GREAT COMPANIES ARE BUILT ON GREAT PRODUCTS",
+    "ANY PRODUCT THAT NEEDS A MANUAL TO WORK IS BROKEN",
+    "BECAUSE OF YOUR SMILE, YOU MAKE LIFE MORE BEAUTIFUL",
+    "BE HAPPY FOR THIS MOMENT, THIS MOMENT IS YOUR LIFE",
+    "EDUCATION IS NOT PREPARATION FOR LIFE; EDUCATION IS LIFE ITSELF",
+    "THE AIM OF THE WISE IS NOT TO SECURE PLEASURE, BUT TO AVOID PAIN",
+    "A WISE MAN MAKES HIS OWN DECISIONS, AN IGNORANT MAN FOLLOWS THE PUBLIC OPINION",
+    "A WISE WOMAN WISHES TO BE NO ONE'S ENEMY; A WISE WOMAN REFUSES TO BE ANYONE'S VICTIM",
+    "WISE MEN DON'T NEED ADVICE, FOOLS WILL NOT TAKE IT",
+    "A FOOL SEES NOT THE SAME TREE THAT A WISE MAN SEES",
+    "A WISE MAN PROPORTIONS HIS BELIEF TO THE EVIDENCE",
+    "RULES ARE FOR THE OBEDIENCE OF FOOLS AND THE GUIDANCE OF WISE MEN",
+    "THE WISE DOES AT ONCE WHAT FOOL DOES AT LAST",
+    "YOUR PAIN IS THE BREAKING OF THE SHELL THAT ENCLOSES YOUR UNDERSTANDING",
+    "THERE IS NO PAIN SO GREAT AS THE MEMORY OF JOY IN PRESENT GRIEF",
+    "SELF-BELIEF AND HARD WORK WILL ALWAYS EARN YOU SUCCESS",
+    "WITHOUT HARD WORK, NOTHING GROWS BUT WEEDS",
+    "IF AN ENEMY IS IN SIGHT, SO ARE YOU",
+    "THERE IS NO SUBSTITUTE FOR HARD WORK",
+    "DESPERATION IS SOMETIMES AS POWERFUL AN INSPIRER AS GENIUS",
+    "IN LIFE YOU NEED EITHER INSPIRATION OR DESPERATION",
+    "I'M PROBABLY THE MOST INSECURE PERSON I KNOW",
+    "THE ARTIST VOCATION IS TO SEND LIGHT INTO THE HUMAN HEART",
+    "PEACE BEGINS WITH A SMILE",
+    "INTENSE LOVE DOES NOT MEASURE, IT JUST GIVES",
+    "LIVE LIFE TO THE FULLEST, AND FOCUS ON THE POSITIVE",
+    "YOUR POSITIVE ACTION COMBINED WITH POSITIVE THINKING RESULTS IN SUCCESS",
+    "KEEP YOUR FACE TO THE SUNSHINE AND YOU CANNOT SEE A SHADOW",
+    "EVERY DAY BRINGS NEW CHOICES",
+    "THE BEST PREPARATION FOR THE TOMORROW IS DOING YOUR BEST TODAY",
+    "NO ACT OF KINDNESS, NO MATTER HOW SMALL, IS EVER WASTED",
+    "NOTHING IS IMPOSSIBLE, THE WORD ITSELF SAYS 'I'M POSSIBLE'!",
+    "BE YOURSELF; EVERYONE ELSE IS ALREADY TAKEN",
+    "IN THREE WORDS I CAN SUM UP EVERYTHING I'VE LEARNED ABOUT LIFE: IT GOES ON",
+    "IF YOU WANT TO KNOW WHAT A MAN'S LIKE, TAKE A GOOD LOOK AT HOW HE TREATS HIS INFERIORS, NOT HIS EQUALS",
+    "NO ONE CAN MAKE YOU FEEL INFERIOR WITHOUT YOUR CONSENT",
+    "IF YOU TELL THE TRUTH, YOU DON'T HAVE TO REMEMBER ANYTHING",
+    "A FRIEND IS SOMEONE WHO KNOWS ALL ABOUT YOU AND AND STILL LOVES YOU",
+    "ALWAYS FORGIVE YOUR ENEMIES; NOTHING ANNOYS THEM SO MUCH",
+    "LIVE AS IF YOU WERE TO DIE TOMORROW, LEARN AS IF YOU WERE TO LIVE FOREVER",
+    "WE ACCEPT THE LOVE WE THINK WE DESERVE",
+    "IT IS BETTER TO BE HATED FOR WHAT YOU ARE THAN TO BE LOVED FOR WHAT YOU ARE NOT",
+    "IMPERFECTION IS BEAUTY, MADNESS IS GENIUS AND IT IS BETTER TO BE ABSOLUTELY RIDICULOUS THAN ABSOLUTELY BORING",
+    "IT DOES NOT DO TO DWELL ON DREAMS AND FORGET TO LIVE",
+    "THE FOOL DOTH THINK HE IS WISE, BUT THE WISE MAN KNOWS HIMSELF TO BE A FOOL",
+    "LIFE IS WHAT HAPPENS TO US WHILE WE ARE MAKING OTHER PLANS",
+    "WE ARE ALL IN THE GUTTER, BUT SOME OF US ARE LOOKING AT THE STARS",
+    "I HAVE NOT FAILED, I'VE JUST FOUND 10,000 WAYS THAT WON'T WORK",
+    "THE MAN WHO DOES NOT READ HAS NO ADVANTAGE OVER THE MAN WHO CANNOT READ",
+    "IF YOU DON'T STAND FOR SOMETHING YOU WILL FALL FOR ANYTHING",
+    "A DAY WITHOUT SUNSHINE IS LIKE, YOU KNOW, NIGHT",
+    "PEOPLE ARE ILLOGICAL, UNREASONABLE, AND SELF-CENTERED, LOVE THEM ANYWAY",
+    "THAT WHICH DOES NOT KILL US MAKES US STRONGER",
+    "FOR EVERY MINUTE YOU ARE ANGRY YOU LOSE SIXTY SECONDS OF HAPPINESS",
+    "IT IS NEVER TOO LATE TO BE WHAT YOU MIGHT HAVE BEEN",
+    "IF YOU JUDGE PEOPLE, YOU HAVE NO TIME TO LOVE THEM",
+    "I AM NOT UPSET THAT YOU LIED TO ME, I'M UPSET THAT FROM NOW ON I CAN'T BELIEVE YOU",
+    "BEGIN NOW TO BE WHAT YOU WILL BE HEREAFTER",
+    "WE HAVE TO DO THE BEST WE ARE CAPABLE OF, THIS IS OUR SACRED HUMAN RESPONSIBILITY",
+    "LISTEN, SMILE, AGREE, AND THEN DO WHATEVER THE !@*# YOU WERE GOING TO DO ANYWAY",
+    "IT IS NOT IN THE STARS TO HOLD OUR DESTINY BUT IN OURSELVES",
+    "GREAT THINGS NEVER CAME FROM COMFORT ZONES",
+    "WHEN YOU HAVE CONFIDENCE,YOU CAN HAVE A LOT OF FUN AND WHEN YOU HAVE FUN, YOU CAN DO AMAZING THINGS",
+    "IF YOU WANT SOMETHING YOU NEVER HAD, YOU HAVE TO DO SOMETHING YOU'VE NEVER DONE",
+    "YOUR LABOUR IS YOUR CONTRIBUTION TO THE MIRACLE",
+    "WE DID NOT COME TO FEAR THE FUTURE, WE CAME HERE TO SHAPE IT",
+    "LEARN TO SELL, LEARN TO BUILD, IF YOU CAN DO BOTH, YOU WILL BE UNSTOPPABLE",
+    "EXTREME PEOPLE GET EXTREME RESULTS ",
+    "THERE IS NO GREAT GENIUS WITHOUT A MIXTURE OF MADNESS",
+    "ADVERSITY REVEALS GENIUS, PROSPERITY CONCEALS IT",
+    "NEVER CONFUSE A SINGLE DEFEAT WITH A FINAL DEFEAT",
+    "THE SCARIEST MOMENT IS ALWAYS JUST BEFORE YOU START",
+    "WHO LOOKS OUTSIDE, DREAMS; WHO LOOKS INSIDE, AWAKES",
+    "LITTLE BY LITTLE, ONE TRAVELS FAR",
+    "I EXIST AS I AM, THAT IS ENOUGH",
+    "PATHS ARE MADE BY WALKING",
+    "A LOVING HEART IS THE TRUEST WISDOM",
+    "IN A GENTLE WAY, YOU CAN SHAKE THE WORLD",
+    "THE SECRET OF GETTING AHEAD IS GETTING STARTED",
+    "EVER TRIED, EVER FAILED, NO MATTER, TRY AGAIN, FAIL AGAIN, FAIL BETTER",
+    "YOU WILL BECOME AS SMALL AS YOUR CONTROLLING DESIRE; AS GREAT AS YOU DOMINANT ASPIRATION",
+    "SHOOT FOR THE MOON AND IF YOU MISS YOU WILL STILL BE AMONG THE STARS",
+    "ALWAYS DO YOUR BEST, WHAT YOU PLANT NOW, YOU WILL HARVEST LATER",
+    "NOT ALL THOSE WHO WANDER ARE LOST",
+    "DON'T LET WHAT YOU CANNOT DO INTERFERE WITH WHAT YOU CAN DO",
+    "IN ORDER TO ATTAIN THE IMPOSSIBLE, ONE MUST ATTEMPT THE ABSURD",
+    "ALL FOR ONE AND ONE FOR ALL",
+    "LIFE IS NOT ALWAYS A MATTER OF HOLDING GOOD CARDS, BUT SOMETIMES, PLAYING A POOR HAND WELL",
+    "TRY NOT TO BECOME A MAN OF SUCCESS, BUT RATHER TRY TO BECOME A MAN OF VALUE",
+    "WHETHER YOU CAN DO A THING OR NOT, YOU ARE RIGHT",
+    "LIVE YOUR BELIEFS AND YOU CAN TURN THE WORLD AROUND",
+    "HE WHO HAS A WHY TO LIVE CAN BEAR ALMOST ANY HOW",
+    "IF YOU CAN IMAGINE IT, WE CAN MAKE IT",
+    "YOU CHANGE THE WORLD BE BEING YOURSELF",
+    "THE ONLY WAY ROUND IS THROUGH",
+    "PAIN OR LOVE OR DANGER MAKES YOU REAL AGAIN",
+    "YOUR BIG OPPORTUNITY MAY BE RIGHT WHERE YOU ARE NOW",
+    "THERE IS NOTHING YOU CANNOT HAVE, THERE ARE NO LIMITATIONS",
+    "ONE DAY OR DAY ONE, YOU DECIDE",
+    "DON'T JUST WAIT FOR INSPIRATION, BECOME IT",
+    "I DIDN'T COME THIS FAR, TO ONLY COME THIS FAR",
+    "FORTUNE SIDES WITH HIM WHO DARES",
+    "RESIST MUCH, OBEY LITTLE",
+    "WE ARE OUR CHOICES",
+    "ONLY THOSE WHO WILL RISK GOING TOO FAR CAN POSSIBLY FIND OUT HOW FAR ONE CAN GO",
+    "FEET, WHAT DO I NEED THEM FOR IF I HAVE WINGS TO FLY",
+    "WHEN YOU SEE SOMETHING BEAUTIFUL IN SOMEONE, TELL THEM, IT MAY TAKE A SECOND TO SAY, BUT FOR THEM IT COULD LAST A LIFETIME",
+    "ACT ENTHUSIASTIC AND YOU WILL BE ENTHUSIASTIC",
+    "WE ARE MADE WISE NOT BY RECOLLECTION OF OUR PAST, BUT BY THE RESPONSIBILITY FOR OUR FUTURE",
+    "GIVE A MAN A FISH, YOU FEED HIM FOR A DAY, TEACH A MAN TO FISH AND HE WILL EAT FOR A LIFETIME",
+    "A SMART MAN ONLY BELIEVES HALF OF WHAT HE HEARS, A WISE MAN KNOWS WHICH HALF",
+    "LIFE'S TRAGEDY IS THAT WE GET OLD TOO SOON AND WISE TOO LATE",
+    "IT IS BEST FOR THE WISE MAN NOT TO SEEM WISE",
+    "EVERYONE'S QUICK TO BLAME THE ALIEN",
+    "THE MAN WHOSE AUTHORITY IS RECENT IS ALWAYS STERN",
+    "TOO FEW REJOICE AT A FRIEND'S GOOD FORTUNE",
+    "FORGET THE PAST",
+    "THE PAST CANNOT BE CURED",
+    "FORGIVENESS MEANS LETTING GO OF THE PAST",
+    "GRATITUDE MAKES SENSE OF OUR PAST, BRINGS PEACE FOR TODAY, AND CREATES A VISION FOR TOMORROW",
+    "EGO IS FALSE CONFIDENCE, SELF RESPECT IS TRUE CONFIDENCE",
+    "A BAD DAY FOR YOUR EGO IS A GREAT DAY FOR YOUR SOUL",
+    "THE EGO'S JOB IS TO KILL EVERYTHING BUT ITSELF",
+    "WHEN NO ONE UNDERSTANDS, THAT'S USUALLY A GOOD SIGN THAT YOU'RE WRONG",
+    "EVERYBODY IS WRONG ABOUT EVERYTHING , JUST ABOUT ALL THE TIME",
+    "EVEN A BROKEN CLOCK IS RIGHT TWICE A DAY",
+    "YOU ARE ALWAYS A LITTLE BIT WRONG",
+    "IT IS BETTER TO BE ROUGHLY RIGHT THAN PRECISELY WRONG",
+    "A LACK OF TRANSPARENCY RESULTS IN DISTRUST AND A DEEP SENSE OF INSECURITY",
+    "COMPETITIVENESS ONLY COMES WITH INSECURITY",
+    "THERE IS NO SUCH THING AS PERFECT SECURITY, ONLY VARYING LEVELS OF INSECURITY",
+    "WHEN YOU HAVE EXPECTATIONS, YOU ARE SETTING YOURSELF UP FOR DISAPPOINTMENT",
+    "A LOT OF GOOD LOVE CAN HAPPEN IN TEN YEARS",
+    "IF YOU'VE GOT A TALENT, PROTECT IT",
+    "YOU DON'T LEARN TO WALK BY FOLLOWING THE RULES, YOU LEARN BY DOING, AND BY FALLING OVER",
+    "PRACTICE DOES NOT MAKE PERFECT, ONLY PERFECT PRACTICE MAKES PERFECT",
+    "I DIDN'T THINK; I EXPERIMENTED",
+    "GOOD JUDGMENT COMES FROM EXPERIENCE, AND A LOT OF THAT COMES FROM BAD JUDGMENT",
+    "YOUR POSITIVE ACTION COMBINED WITH POSITIVE THINKING RESULTS IN SUCCESS",
+    "EACH PERSON MUST LIVE THEIR LIFE AS A MODEL FOR OTHERS",
+    "I AM TIRED OF BEING TREATED LIKE A SECOND-CLASS CITIZEN",
+    "LET THE BEAUTY OF WHAT YOU LOVE BE WHAT YOU DO",
+    "INSPIRATION COMES FROM WITHIN YOURSELF, ONE HAS TO BE POSITIVE, WHEN YOU ARE POSITIVE GOOD THINGS HAPPEN",
+    "LIMIT YOUR ALWAYS, AND YOUR NEVERS",
+    "A CHAMPION IS DEFINED NOT BY THEIR WINS BUT BY HOW THEY CAN RECOVER WHEN THEY FALL",
+    "MOTIVATION COMES FROM WORKING ON THINGS WE CARE ABOUT",
+    "NO MATTER WHAT PEOPLE TELL YOU WORDS AND IDEAS CAN CHANGE THE WORLD",
+    "IF YOU LOOK AT WHAT YOU HAVE IN LIFE, YOU'LL ALWAYS HAVE MORE",
+    "YOU ARE ENOUGH JUST AS YOU ARE",
+    "YOU BEING TRUE TO YOURSELF IS NOT GOING TO OFFEND ANYBODY",
+    "YOU CAN NOT SELECTIVELY NUMB FEELINGS, IF YOU NUMB VULNERABILITY, YOU ALSO NUMB JOY, HAPPINESS AND CONNECTION",
+    "WHEN PEOPLE BUILD UP WALLS, THEY END UP KEEPING OTHER PEOPLE OUT, BUT THEY ARE ALSO KEEPING THEMSELVES IN",
+    "I WANT MY PARTNER TO LOOK AT ME AND THINK I RESPECT THEM ENOUGH TO MAKE AN EFFORT",
+    "OUR GREATEST GLORY IS NOT IN NEVER FALLING BUT IN RISING EVERY TIME WE FALL",
+    "ALL OUR DREAMS CAN COME TRUE, IF WE HAVE THE COURAGE TO PURSUE THEM",
+    "IT DOES NOT MATTER HOW SLOWLY YOU GO AS LONG AS YOU DO NOT STOP",
+    "SUCCESS IS NOT FINAL, FAILURE IS NOT FATAL, IT IS THE COURAGE TO CONTINUE THAT COUNTS",
+    "HARDSHIPS OFTEN PREPARE ORDINARY PEOPLE FOR EXTRAORDINARY DESTINY",
+    "BELIEVE IN YOURSELF, YOU ARE BRAVER THAN YOU THINK, MORE TALENTED THAN YOU KNOW, AND CAPABLE OF MORE THAN YOU IMAGINE",
+    "YOUR TRUE SUCCESS IN LIFE BEGINS ONLY WHEN YOU MAKE THE COMMITMENT TO BECOME EXCELLENT AT WHAT YOU DO",
+    "ENDURANCE MEANS PERFORMING IN THE RIGHT CHEMICAL ENVIRONMENT",
+    "THE BREATH KNOWS HOW TO GO DEEPER THAN THE MIND",
+    "POWER IS WITHIN US ALL. ANYTHING CAN BE OVERCOME BY GOING WITHIN",
+    "YOUR FITNESS IS 100% MENTAL, YOUR BODY WON'T GO WHERE YOUR MIND DOES NOT PUSH IT",
+    "THE EGO IS NOT MASTER IN ITS OWN HOUSE",
+    "WHENEVER I CLIMB I AM FOLLOWED BY A DOG CALLED EGO",
+    "CHOOSE PEOPLE WHO LIFT YOU UP",
+    "THERE IS NO I IN TEAM BUT THERE IS IN WIN",
+    "I WON'T BE A ROCKSTAR, I WILL BE A LEGEND",
+    "HAPPINESS CAN EXIST ONLY IN ACCEPTANCE",
+    "FREEDOM IS THE RIGHT TO TELL PEOPLE WHAT THEY DO NOT WANT TO HEAR",
+    "THE QUICKEST WAY OF ENDING A WAR IS TO LOSE IT",
+    "THE TRUE MEASURE OF A MAN IS HOW HE TREATS SOMEONE WHO CAN DO HIM ABSOLUTELY NO GOOD",
+    "IF YOU HAVE AN OPPORTUNITY TO USE YOUR VOICE YOU SHOULD USE IT",
+    "YOU ARE NOT THINGS THAT HAPPEN TO YOU, THEY ARE JUST A PART OF YOUR STORY, BE OBJECTIVE OF IT AND ACKNOWLEDGE IT",
+    "WHEN YOU GET OLD, YOU WILL NOT THINK, I WISH I WORKED MORE, YOU WILL THINK ABOUT ALL YOUR LOVED ONES",
+    "SHAMING PEOPLE IS NOT PRODUCTIVE, THAT MAKES YOU FEEL BAD ABOUT YOURSELF",
+    "THINK, FEEL, CHOOSE"
+];
+var authors = [
+    "MUHAMMAD ALI",
+    "MAHATMA GANDHI",
+    "STEPHEN HAWKING",
+    "EASTER HICKS",
+    "JOHN LENNON",
+    "CASEY NEISTAT",
+    "FRANK OCEAN",
+    "BUDDHA",
+    "PABLO PICASSO",
+    "CASEY NEISTAT",
+    "GARY VAYNERCHUK",
+    "GARY VAYNERCHUK",
+    "KANYE WEST",
+    "ARISTOTLE",
+    "ALBERT EINSTEIN",
+    "NELSON MANDELA",
+    "BILLIE JEAN KING",
+    "STEVE MARTIN",
+    "THOMAS FULLER",
+    "CHARLES R. SWINDOLL",
+    "MILTON BERLE",
+    "FRANK SINATRA",
+    "SOLOMON NORTHUP - 12 YEARS A SLAVE",
+    "NAPOLEON HILL",
+    "JIM ROHN",
+    "JAPANESE PROVERB",
+    "ROBIN WILLIAMS - DEAD POETS SOCIETY",
+    "RICHARD BRANSON",
+    "WAYNE GRETZKY",
+    "MARK TWAIN",
+    "CHIP KIDD",
+    "NAPOLEON HILL",
+    "STEVE JOBS",
+    "MAE WEST",
+    "PABLO PICASSO",
+    "GEORGE AUGUSTUS MOORE",
+    "ROBERT COLLIER",
+    "CONFUCIUS",
+    "VINCE LOMBARDI",
+    "HANNIBAL",
+    "WINSTON CHURCHILL",
+    "SHIA LABEOUF",
+    "TIM ALLEN - GALAXY QUEST",
+    "HERACLITUS",
+    "NORA ROBERTS",
+    "GEORGE LUCAS",
+    "TONY HSIEH",
+    "RICHARD BRANSON",
+    "GARY VAYNERCHUK",
+    "THOMAS A EDISON",
+    "MALCOLM S. FORBES",
+    "HENRY DAVID THOREAU",
+    "WALT DISNEY",
+    "WARREN BUFFETT",
+    "BILL GATES",
+    "SOCRATES",
+    "SOCRATES",
+    "SOCRATES",
+    "SOCRATES",
+    "SOCRATES",
+    "ROBIN S. SHARMA",
+    "KENNETH H. BLANCHARD",
+    "HARRY S. TRUMAN",
+    "NAPOLEON",
+    "FRED WILSON",
+    "ARISTOTLE",
+    "DR SEUSS",
+    "JON KRAKAUER",
+    "NEALE DONALD WALSCH",
+    "WALTER BAGEHOT",
+    "AZIM PREMJI",
+    "TIM NOTKE",
+    "CARL GUSTAV JUNG",
+    "SUZY KASSEM",
+    "JIM ROHN",
+    "ANONYMOUS",
+    "GARY VAYNERCHUK",
+    "MICHAEL JORDAN",
+    "TONY ROBBINS",
+    "TONY ROBBINS",
+    "FARRAH GRAY",
+    "JIM ROHN",
+    "PETER DRUCKER",
+    "ELIZA DUSHKU",
+    "HENRY FORD",
+    "ALBERT EINSTEIN",
+    "ANONYMOUS",
+    "CONFUCIUS",
+    "CHARLES BUKOWSKI",
+    "NOLAN BUSHNELL",
+    "WALT DISNEY",
+    "WALT DISNEY",
+    "ALBUS DUMBLEDORE",
+    "ROBIN SHARMA",
+    "ROBIN SHARMA",
+    "ANONYMOUS",
+    "ST JEROME",
+    "MOTHER TERESA",
+    "MATT KEMP",
+    "ABRAHAM LINCOLN",
+    "ABRAHAM LINCOLN",
+    "WILLIAM SHAKESPEARE",
+    "DALAI LAMA",
+    "GENE TUNNEY",
+    "PUBLILIUS SYRUS",
+    "BETHENNY FRANKEL",
+    "STEFON DIGGS",
+    "ALBERT EINSTEIN",
+    "ELIZABETH KENNY",
+    "BENJAMIN FRANKLIN",
+    "PYTHAGORAS",
+    "ALBERT EINSTEIN",
+    "ANAIS NIN",
+    "SUZY KASSEM",
+    "FERDINAND PORSCHE",
+    "LES BROWN",
+    "DALAI LAMA",
+    "RYAN BROWN",
+    "VINCENT VAN GOGH",
+    "RONALD REAGAN",
+    "SONIA JOHNSON",
+    "JOHN RAY",
+    "BRUCE LEE",
+    "SOJOURNER TRUTH",
+    "JOHN MUIR",
+    "ANTHONY J. D'ANGELO",
+    "LEO BUSCAGLIA",
+    "HELEN KELLER",
+    "MARK TWAIN",
+    "LEO BUSCAGLIA",
+    "MICHELANGELO",
+    "NEIL ARMSTRONG",
+    "ELON MUSK",
+    "ELON MUSK",
+    "THICH NHAT HANH",
+    "OMAR KHAYYAM",
+    "JOHN DEWEY",
+    "ARISTOTLE",
+    "GRANTLAND RICE",
+    "MAYA ANGELOU",
+    "BENJAMIN FRANKLIN",
+    "WILLIAM BLAKE",
+    "DAVID HUME",
+    "HARRY DAY",
+    "BALTASAR GRACIAN",
+    "KHALIL GIBRAN",
+    "AESCHYLUS",
+    "VIRAT KOHLI",
+    "GORDON B. HINCKLEY",
+    "CAPTAIN PRICE",
+    "THOMAS A. EDISON",
+    "BENJAMIN DISRAELI",
+    "TONY ROBBINS",
+    "DONALD GLOVER",
+    "GEORGE SAND",
+    "MOTHER TERESA",
+    "MOTHER TERESA",
+    "MATT CAMERON",
+    "SHIV KHERA",
+    "HELEN KELLER",
+    "MARTHA BECK",
+    "H. JACKSON BROWN JR.",
+    "AESOP",
+    "AUDREY HEPBURN",
+    "OSCAR WILDE",
+    "ROBERT FROST",
+    "J.K. ROWLING",
+    "ELEANOR ROOSEVELT",
+    "MARK TWAIN",
+    "ELBERT HUBBARD",
+    "OSCAR WILDE",
+    "MAHATMA GANDHI",
+    "STEPHEN CHBOSKY",
+    "ANDRE GIDE",
+    "MARILYN MONROE",
+    "J.K. ROWLING",
+    "WILLIAM SHAKESPEARE",
+    "ALLEN SAUNDERS",
+    "OSCAR WILDE",
+    "THOMAS A. EDISON",
+    "MARK TWAIN",
+    "GORDON A. EADIE",
+    "STEVE MARTIN",
+    "KENT M. KEITH",
+    "FRIEDRICH NIETZSCHE",
+    "RALPH WALDO EMERSON",
+    "GEORGE ELIOT",
+    "MOTHER TERESA",
+    "FRIEDRICH NIETZSCHE",
+    "SAINT JEROME",
+    "ALBERT EINSTEIN",
+    "ROBERT DOWNEY JR",
+    "WILLIAM SHAKESPEARE",
+    "NEIL STRAUSS",
+    "JOE NAMATH",
+    "THOMAS JEFFERSON",
+    "ELIZABETH GILBERT",
+    "BARACK OBAMA",
+    "NAVAL RAVIKANT",
+    "SAM ALTMAN",
+    "ARISTOTLE",
+    "HORACE",
+    "F. SCOTT FITZGERALD",
+    "STEPHEN KING",
+    "CARL JUNG",
+    "J.R.R. TOLKIEN",
+    "WALT WHITMAN",
+    "FRANZ KAFKA",
+    "CHARLES DICKENS",
+    "MAHATMA GANDHI",
+    "MARK TWAIN",
+    "SAMUEL BECKETT",
+    "JAMES ALLEN",
+    "LES BROWN",
+    "OG MANDINO",
+    "J.R.R. TOLKIEN",
+    "JOHN WOODEN",
+    "MIGUEL DE CERVANTES",
+    "ALEXANDRE DUMAS",
+    "JACK LONDON",
+    "ALBERT EINSTEIN",
+    "HENRY FORD",
+    "HENRY DAVID THOREAU",
+    "FRIEDRICH NIETZSCHE",
+    "JOHN DYKSTRA",
+    "YOKO ONO",
+    "ROBERT FROST",
+    "JACK KEROUAC",
+    "NAPOLEON HILL",
+    "ANONYMOUS",
+    "ANONYMOUS",
+    "ANONYMOUS",
+    "ANONYMOUS",
+    "VIRGIL",
+    "WALT WHITMAN",
+    "JEAN-PAUL SARTRE",
+    "T.S. ELIOT",
+    "FRIDA KAHLO",
+    "ANONYMOUS",
+    "DALE CARNEGIE",
+    "GEORGE BERNARD SHAW",
+    "CHINESE PROVERB",
+    "JEFF COOPER",
+    "BENJAMIN FRANKLIN",
+    "AESCHYLUS",
+    "AESCHYLUS",
+    "AESCHYLUS",
+    "AESCHYLUS",
+    "NELSON MANDELA",
+    "QUEEN ELIZABETH I",
+    "GERALD JAMPOLSKY",
+    "MELODY BEATTIE",
+    "NAVAL RAVIKANT",
+    "JILLIAN MICHAELS",
+    "BYRON KATIE",
+    "VICTORIA SCHWAB",
+    "CHUCK KLOSTERMAN",
+    "STEPHEN HUNT",
+    "HANK GREEN",
+    "JOHN MAYNARD KEYNES",
+    "DALAI LAMA",
+    "LARA PULVER",
+    "SALMAN RUSHDIE",
+    "RYAN REYNOLDS ",
+    "JIM CARREY",
+    "JIM CARREY",
+    "RICHARD BRANSON",
+    "VINCE LOMBARDI",
+    "ANTHONY BURGESS",
+    "WILL ROGERS",
+    "SHIV KHERA",
+    "ROSA PARKS",
+    "ROSA PARKS",
+    "RUMI",
+    "DEEP ROY",
+    "AMY POEHLER",
+    "SERENA WILLIAMS",
+    "SHERYL SANDBERG",
+    "ROBIN WILLIAMS",
+    "OPRAH WINFREY",
+    "MEGHAN MARKLE",
+    "TAN FRANCE",
+    "JONATHAN VAN NESS",
+    "KARAMO BROWN",
+    "TAN FRANCE",
+    "CONFUCIUS ",
+    "WALT DISNEY",
+    "CONFUSIUS",
+    "WINSTON CHURCHILL",
+    "C. S. LEWIS",
+    "ROY T. BENNETT",
+    "BRIAN TRACY",
+    "WIM HOF",
+    "WIM HOF",
+    "WIM HOF",
+    "WIM HOF",
+    "SIGMUND FREUD",
+    "FRIEDRICH NIETZSCHE",
+    "MICHELLE OBAMA",
+    "MICHAEL JORDAN",
+    "FREDDIE MERCURY",
+    "GEORGE ORWELL",
+    "GEORGE ORWELL",
+    "GEORGE ORWELL",
+    "SAMUEL L JACKSON",
+    "SAMUEL L JACKSON",
+    "DR CAROLINE LEAF",
+    "HENRY TREWARTHA",
+    "JAMEELA JAMIL ",
+    "DR CAROLINE LEAF" 
+];
+//PUT BACKGROUNDS HERE
+var bigSize = ["url('https://rossshawdesigncom.files.wordpress.com/2019/02/maze-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/rossshawanimation1.gif')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/rossshawanimation2.gif')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/rossshaw3.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/rossshaw5.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/02/orangeyellow.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/02/redpink.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/02/bluecyan.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/02/grey.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/georgedupree-10-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/georgedupree-9-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/georgedupree-8-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/georgedupree-7-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/georgedupree-6-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/georgedupree-5-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/georgedupree-4-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/georgedupree-3-3.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/georgedupree-2-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/georgedupree-1-3.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-15-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-14-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-13-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-12-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-11-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-10-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-9-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-8-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-7-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-6-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-5-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-4-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-3-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-2-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/danrowland-1-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/bennourse-10-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/bennourse-9-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/bennourse-8-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/bennourse-7-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/bennourse-6-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/bennourse-5-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/bennourse-4-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/bennourse-3-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/bennourse-2-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/bennourse-1-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/hazeltaylor-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/hazeltaylor-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/hazeltaylor-3.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/hazeltaylor-4.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/hazeltaylor-5.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/hazeltaylor-6.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/hazeltaylor-7.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/ryanbrown-6.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/ryanbrown-5.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/ryanbrown-7.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/ryanbrown-2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/04/ryanbrown-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/joesparkes_1.jpg')", 
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/joesparkes_2.jpg')", 
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/joesparkes_3.jpg')", 
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/joesparkes_4.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/joesparkes_5.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/joesparkes_6.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/rosiemay_1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/rosiemay_2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/rosiemay_3.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/rosiemay_4.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/rosiemay_5.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/rosiemay_6.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/willclaridge_1.jpeg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/willclaridge_2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/willclaridge_3.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/willclaridge_4.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/willclaridge_5.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/willclaridge_6.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/willclaridge_7.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/willclaridge_8.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/05/willclaridge_9.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/alexunsworth1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/alexunsworth2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/alexunsworth3.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/alexunsworth4.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/alexunsworth5.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/alexunsworth6.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/alexunsworth7.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/alexunsworth8.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/jessicaleslie1.jpeg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/jessicaleslie2.jpeg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/jessicaleslie3.jpeg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/jessicaleslie4.jpeg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/jessicaleslie5.jpeg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/jessicaleslie6.jpeg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/jessicaleslie7.jpeg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/jessicaleslie8.jpeg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/laurenbills1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/laurenbills2.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/laurenbills3.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/kieranstewart-1-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/kieranstewart-2-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/kieranstewart-3-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/kieranstewart-4-1.jpg')",
+"url('https://rossshawdesigncom.files.wordpress.com/2019/06/kieranstewart-5-1.jpg')"
+              ];
+var creditext = [
+    "Photography By",
+    "Photography by",
+    "Photography by",
+    "Concept Art by",
+    "Concept Art by",
+    "",
+    "",
+    "",
+    "",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Artwork by",
+    "Artwork by",
+    "Artwork by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Untitled, 6'x4' by",
+    "'Resonating Ripples', 6'x4' by",
+    "'From the Crowd', 6'x4' by",
+    "'Summer Daze III', 6'x4' by",
+    "'Beach of a Day', 6'x4' by",
+    "'Camden Crowds', 6'x4' by",
+    "'Huh?', 6'x4' by",
+    "'After the Rain', 6'x4' by",
+    "'Mind the Gap', 6'x4' by",
+    "Painting by,",
+    "Painting by",
+    "Painting by",
+    "Photomontage by",
+    "Artwork by",
+    "Painting by",
+    "Artwork by",
+    "Painting and Exhibition by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Photography by",
+    "Illustration by",
+    "Illustration by",
+    "Illustration by",
+    "Illustration by",
+    "Illustration by",
+    "Illustration by",
+    "Illustration by",
+    "Illustration by"
+];
+
+var creditlinks = [
+  '<a href="https://www.instagram.com/rossshawdesign/" target="_blank">Ross Shaw</a>',
+    '<a href="https://www.instagram.com/rossshawdesign/" target="_blank">Ross Shaw</a>',
+    '<a href="https://www.instagram.com/rossshawdesign/" target="_blank">Ross Shaw</a>',
+    '<a href="https://www.instagram.com/rossshawdesign/" target="_blank">Ross Shaw</a>',
+    '<a href="https://www.instagram.com/rossshawdesign/" target="_blank">Ross Shaw</a>',
+    '<a href="https://www.instagram.com/sundayvideo/" target="_blank">Soul Aid</a>',
+    '<a href="https://www.instagram.com/sundayvideo/" target="_blank">Soul Aid</a>',
+    '<a href="https://www.instagram.com/sundayvideo/" target="_blank">Soul Aid</a>',
+    '<a href="https://www.instagram.com/sundayvideo/" target="_blank">Soul Aid</a>',
+    '<a href="https://www.instagram.com/georgedupree1/" target="_blank">George Dupree</a>',
+    '<a href="https://www.instagram.com/georgedupree1/" target="_blank">George Dupree</a>',
+    '<a href="https://www.instagram.com/georgedupree1/" target="_blank">George Dupree</a>',
+    '<a href="https://www.instagram.com/georgedupree1/" target="_blank">George Dupree</a>',
+    '<a href="https://www.instagram.com/georgedupree1/" target="_blank">George Dupree</a>',
+    '<a href="https://www.instagram.com/georgedupree1/" target="_blank">George Dupree</a>',
+    '<a href="https://www.instagram.com/georgedupree1/" target="_blank">George Dupree</a>',
+    '<a href="https://www.instagram.com/georgedupree1/" target="_blank">George Dupree</a>',
+    '<a href="https://www.instagram.com/georgedupree1/" target="_blank">George Dupree</a>',
+    '<a href="https://www.instagram.com/georgedupree1/" target="_blank">George Dupree</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/daniel_1795/" target="_blank">Dan Rowland</a>',
+    '<a href="https://www.instagram.com/benjaminnourse/" target="_blank">Benjamin Nourse</a>',
+    '<a href="https://www.instagram.com/benjaminnourse/" target="_blank">Benjamin Nourse</a>',
+    '<a href="https://www.instagram.com/benjaminnourse/" target="_blank">Benjamin Nourse</a>',
+    '<a href="https://www.instagram.com/benjaminnourse/" target="_blank">Benjamin Nourse</a>',
+    '<a href="https://www.instagram.com/benjaminnourse/" target="_blank">Benjamin Nourse</a>',
+    '<a href="https://www.instagram.com/benjaminnourse/" target="_blank">Benjamin Nourse</a>',
+    '<a href="https://www.instagram.com/benjaminnourse/" target="_blank">Benjamin Nourse</a>',
+    '<a href="https://www.instagram.com/benjaminnourse/" target="_blank">Benjamin Nourse</a>',
+    '<a href="https://www.instagram.com/benjaminnourse/" target="_blank">Benjamin Nourse</a>',
+    '<a href="https://www.instagram.com/benjaminnourse/" target="_blank">Benjamin Nourse</a>',
+    '<a href="https://www.instagram.com/hazeltaylorart/" target="_blank">Hazel Taylor</a>',
+    '<a href="https://www.instagram.com/hazeltaylorart/" target="_blank">Hazel Taylor</a>',
+    '<a href="https://www.instagram.com/hazeltaylorart/" target="_blank">Hazel Taylor</a>',
+    '<a href="https://www.instagram.com/hazeltaylorart/" target="_blank">Hazel Taylor</a>',
+    '<a href="https://www.instagram.com/hazeltaylorart/" target="_blank">Hazel Taylor</a>',
+    '<a href="https://www.instagram.com/hazeltaylorart/" target="_blank">Hazel Taylor</a>',
+    '<a href="https://www.instagram.com/hazeltaylorart/" target="_blank">Hazel Taylor</a>',
+    '<a href="https://www.instagram.com/ryskibro/" target="_blank">Ryan Brown</a>',
+    '<a href="https://www.instagram.com/ryskibro/" target="_blank">Ryan Brown</a>',
+    '<a href="https://www.instagram.com/ryskibro/" target="_blank">Ryan Brown</a>',
+    '<a href="https://www.instagram.com/ryskibro/" target="_blank">Ryan Brown</a>',
+    '<a href="https://www.instagram.com/ryskibro/" target="_blank">Ryan Brown</a>',
+    '<a href="https://www.instagram.com/joesparkesart/" target="_blank">Joe Sparkes</a>',
+    '<a href="https://www.instagram.com/joesparkesart/" target="_blank">Joe Sparkes</a>',
+    '<a href="https://www.instagram.com/joesparkesart/" target="_blank">Joe Sparkes</a>',
+    '<a href="https://www.instagram.com/joesparkesart/" target="_blank">Joe Sparkes</a>',
+    '<a href="https://www.instagram.com/joesparkesart/" target="_blank">Joe Sparkes</a>',
+    '<a href="https://www.instagram.com/joesparkesart/" target="_blank">Joe Sparkes</a>',
+    '<a href="https://www.instagram.com/rosielouisemay/" target="_blank">Rosie May</a>',
+    '<a href="https://www.instagram.com/rosielouisemay/" target="_blank">Rosie May</a>',
+    '<a href="https://www.instagram.com/rosielouisemay/" target="_blank">Rosie May</a>',
+    '<a href="https://www.instagram.com/rosielouisemay/" target="_blank">Rosie May</a>',
+    '<a href="https://www.instagram.com/rosielouisemay/" target="_blank">Rosie May</a>',
+    '<a href="https://www.instagram.com/rosielouisemay/" target="_blank">Rosie May</a>',
+    '<a href="https://www.instagram.com/willclaridge.art/" target="_blank">Will Claridge</a>',
+    '<a href="https://www.instagram.com/willclaridge.art/" target="_blank">Will Claridge</a>',
+    '<a href="https://www.instagram.com/willclaridge.art/" target="_blank">Will Claridge</a>',
+    '<a href="https://www.instagram.com/willclaridge.art/" target="_blank">Will Claridge</a>',
+    '<a href="https://www.instagram.com/willclaridge.art/" target="_blank">Will Claridge</a>',
+    '<a href="https://www.instagram.com/willclaridge.art/" target="_blank">Will Claridge</a>',
+    '<a href="https://www.instagram.com/willclaridge.art/" target="_blank">Will Claridge</a>',
+    '<a href="https://www.instagram.com/willclaridge.art/" target="_blank">Will Claridge</a>',
+    '<a href="https://www.instagram.com/willclaridge.art/" target="_blank">Will Claridge</a>',
+'<a href="https://www.instagram.com/alexaltiair/" target="_blank">Alex Unsworth</a>',
+'<a href="https://www.instagram.com/alexaltiair/" target="_blank">Alex Unsworth</a>',
+'<a href="https://www.instagram.com/alexaltiair/" target="_blank">Alex Unsworth</a>',
+'<a href="https://www.instagram.com/alexaltiair/" target="_blank">Alex Unsworth</a>',
+'<a href="https://www.instagram.com/alexaltiair/" target="_blank">Alex Unsworth</a>',
+'<a href="https://www.instagram.com/alexaltiair/" target="_blank">Alex Unsworth</a>',
+'<a href="https://www.instagram.com/alexaltiair/" target="_blank">Alex Unsworth</a>',
+'<a href="https://www.instagram.com/alexaltiair/" target="_blank">Alex Unsworth</a>',
+'<a href="https://www.instagram.com/jessicaleslietextiles/" target="_blank">Jessica Leslie</a>',
+'<a href="https://www.instagram.com/jessicaleslietextiles/" target="_blank">Jessica Leslie</a>',
+'<a href="https://www.instagram.com/jessicaleslietextiles/" target="_blank">Jessica Leslie</a>',
+'<a href="https://www.instagram.com/jessicaleslietextiles/" target="_blank">Jessica Leslie</a>',
+'<a href="https://www.instagram.com/jessicaleslietextiles/" target="_blank">Jessica Leslie</a>',
+'<a href="https://www.instagram.com/jessicaleslietextiles/" target="_blank">Jessica Leslie</a>',
+'<a href="https://www.instagram.com/jessicaleslietextiles/" target="_blank">Jessica Leslie</a>',
+'<a href="https://www.instagram.com/jessicaleslietextiles/" target="_blank">Jessica Leslie</a>',
+'<a href="https://www.instagram.com/lauren_bills_illustration/" target="_blank">Lauren Bills</a>',
+'<a href="https://www.instagram.com/lauren_bills_illustration/" target="_blank">Lauren Bills</a>',
+'<a href="https://www.instagram.com/lauren_bills_illustration/" target="_blank">Lauren Bills</a>',
+'<a href="https://www.instagram.com/kieranstewartillustration/" target="_blank">Kieran Stewart</a>',
+'<a href="https://www.instagram.com/kieranstewartillustration/" target="_blank">Kieran Stewart</a>',
+'<a href="https://www.instagram.com/kieranstewartillustration/" target="_blank">Kieran Stewart</a>',
+'<a href="https://www.instagram.com/kieranstewartillustration/" target="_blank">Kieran Stewart</a>',
+'<a href="https://www.instagram.com/kieranstewartillustration/" target="_blank">Kieran Stewart</a>'];
+
+
+//GLOBAL VARIABLE STORING ORDER OF RANDOM BACKGROUNDS
+var RandNumArray = [];
+var RandNumArray2 = [];
+
+//EDIT NUMBER OF MODUALS HERE;
+var MODS = 20;
+
+//CONTAINER FOR ALL ON SCREEN CONTENT
+var EVERYTHING = document.createElement('div');
+document.body.appendChild(EVERYTHING);
+
+//FIRST 10 - uses quote1 var
+//GENERATE MODUALS WITH RANDOM QUOTES AND BACKGROUNDS
+
+
+var i;
+for (i = 0; i < MODS; i += 1) {
+//MODUAL BOX STRUCTURE  + SET IDS
+    var bigboxcontainer = document.createElement('div');
+    bigboxcontainer.id = "bigboxcontainer" + [i];
+    var upperquoteauthorcont = document.createElement('div');
+    upperquoteauthorcont.id = "quotebox" + [i];
+    var quotecontainer = document.createElement('div');
+    quotecontainer.id = "quotecontainer";
+    var TEXTquote = document.createElement('h1');
+    TEXTquote.id = "quote";
+    var middleline = document.createElement('span');
+    middleline.id = "line";
+    var authorcontainer = document.createElement('div');
+    authorcontainer.id = "authorcontainer";
+    var TEXTauthor = document.createElement('h1');
+    TEXTauthor.id = "author";
+    var showmore = document.createElement('a');
+    showmore.id = "showmore" + i;
+    var dotsimage = document.createElement('div');
+    dotsimage.id = "dotsimage"  + i;
+    var arrowimage = document.createElement('div');
+    arrowimage.id = "arrowimage"  + i;
+    var minusimage = document.createElement('div');
+    minusimage.id = "minusimage"  + i;
+    var creditbar = document.createElement('div');
+    creditbar.id = "creditbar" + i;
+    var credit = document.createElement('span');
+    credit.id = "credittext" + i;
+    var creditlinkvar = document.createElement('span');
+    creditlinkvar.id = "creditlink" + i;
+//CREATE STRUCTURE
+    //BIG BOX
+    bigboxcontainer.appendChild(upperquoteauthorcont);
+    //upper quote container in big box    
+    upperquoteauthorcont.appendChild(quotecontainer);
+    quotecontainer.appendChild(TEXTquote);
+    upperquoteauthorcont.appendChild(middleline);
+    upperquoteauthorcont.appendChild(authorcontainer);
+    authorcontainer.appendChild(TEXTauthor);
+    //show more in big box
+    bigboxcontainer.appendChild(showmore);
+    showmore.appendChild(minusimage);
+    showmore.appendChild(dotsimage);
+    showmore.appendChild(arrowimage);
+    
+    bigboxcontainer.appendChild(creditbar);
+    creditbar.appendChild(credit);
+    creditbar.appendChild(creditlinkvar);
+    
+//ADDING TEXT TO BOXES 
+    //ADDING TEXT (FROM ABOVE ARRAYS) INTO HTML
+    var rand_num = Math.floor(Math.random() * quotes.length);
+    TEXTquote.innerHTML = quotes[rand_num];
+    TEXTauthor.innerHTML = authors[rand_num];
+    //ADD QUOTE AND AUTHOR ARRAY POSITION FOR EACH QUOTE
+    RandNumArray[i] = rand_num;
+    //SET DOTS BUTTON IMAGE
+    minusimage.innerHTML ="<img src=https://rossshawdesigncom.files.wordpress.com/2019/05/minus_button.png>";
+    dotsimage.innerHTML = "<img src=https://rossshawdesigncom.files.wordpress.com/2019/05/dots_button.png>";
+    arrowimage.innerHTML ="<img src=https://rossshawdesigncom.files.wordpress.com/2019/05/arrow_button-1.png>";
+//PUT MODUAL IN 'EVERYTHING' IN BODY.
+    EVERYTHING.appendChild(bigboxcontainer);
+//STYLING  
+    //SET RANDOM BACKGROUNDS
+    var random = Math.floor(Math.random() * bigSize.length);
+    bigboxcontainer.style.backgroundImage = bigSize[random];
+    credit.innerHTML = creditext[random];
+    creditlinkvar.innerHTML = creditlinks[random];
+}
+
+//VARIABLES FOR POP UP SECTIONS
+var popupsection = document.createElement('div');
+popupsection.id = "popupsection";
+popupsection.className = "closed";
+
+//GENERATING POP UP - FOR NUMBER OF BACKGROUNDS IN BIGSIZE ARRAY
+var x;
+for (x = 0; x < bigSize.length; x += 1) {
+//MODUAL BOX STRUCTURE  + SET IDS
+    var chosenquotescreenC = document.createElement('div');
+    chosenquotescreenC.id = "chosenquotescreenC";
+    var upperquoteauthorcontC = document.createElement('div');
+    upperquoteauthorcontC.id = "quoteboxC";
+    upperquoteauthorcontC.className = "boxCC";
+    var quotecontainerC = document.createElement('div');
+    quotecontainerC.id = "quotecontainer";
+    var middlelineC = document.createElement('span');
+    middlelineC.id = "line";
+    var authorcontainerC = document.createElement('div');
+    authorcontainerC.id = "authorcontainer";
+    var TEXTquoteC = document.createElement('h1');
+    TEXTquoteC.id = "quote";
+    TEXTquoteC.className = "quoteCC";
+    var TEXTauthorC = document.createElement('h1');
+    TEXTauthorC.id = "author";
+    TEXTauthorC.className = "authorCC";
+    
+    var creditbarC = document.createElement('div');
+    creditbarC.id = "creditbarC";
+    var creditC = document.createElement('span');
+    creditC.id = "credittextC";
+    var creditClinkvar = document.createElement('span');
+    creditClinkvar.id = "creditlinkC";
+//CREATE STRUCTURE
+  //BIG BOX
+    creditC.innerHTML = creditext[x];
+    creditClinkvar.innerHTML = creditlinks[x];
+    popupsection.appendChild(chosenquotescreenC);
+    chosenquotescreenC.appendChild(upperquoteauthorcontC);
+    upperquoteauthorcontC.appendChild(quotecontainerC);
+    quotecontainerC.appendChild(TEXTquoteC);
+    upperquoteauthorcontC.appendChild(middlelineC);
+    upperquoteauthorcontC.appendChild(authorcontainerC);
+    authorcontainerC.appendChild(TEXTauthorC);
+    chosenquotescreenC.appendChild(creditbarC);
+    creditbarC.appendChild(creditC);
+    creditbarC.appendChild(creditClinkvar);
+//SET BACKGROUND OF POPUP MODUAL TO BACKGROUND IN POSITION [X]
+    chosenquotescreenC.style.backgroundImage = bigSize[x];
+}
+//GENERATE POPUP SECTIONS IN OVER ALL CONTENT
+
+EVERYTHING.appendChild(popupsection);
+ 
+//FUNCTION ON BOXES
+//EXPANDING [EACH INSTANCE NEEDS IT OWN FUNCTION]
+dotsimage0.onclick = function() {
+   if(quotebox0.className == "open"){
+        //shrink box
+        quotebox0.className = "";
+        bigboxcontainer0.className = "";
+    } else {
+        //expand the box
+        quotebox0.className = "open";
+        bigboxcontainer0.className = "open";
+    }
+    };
+dotsimage1.onclick = function(){
+   if(quotebox1.className == "open"){
+        //shrink box
+        quotebox1.className = "";
+        bigboxcontainer1.className = "";
+    } else {
+        //expand the box
+        quotebox1.className = "open";
+        bigboxcontainer1.className = "open";
+    }
+    
+};
+dotsimage2.onclick = function(){
+   if(quotebox2.className == "open"){
+        //shrink box
+        quotebox2.className = "";
+        showmore2.className = "";
+        bigboxcontainer2.className = "";
+    } else {
+        //expand the box
+        quotebox2.className = "open";
+        showmore2.className = "open";
+        bigboxcontainer2.className = "open";
+    }
+    };
+dotsimage3.onclick = function(){
+   if(quotebox3.className == "open"){
+        //shrink box
+        quotebox3.className = "";
+        showmore3.className = "";
+        bigboxcontainer3.className = "";
+    } else {
+        //expand the box
+        quotebox3.className = "open";
+        showmore3.className = "open";
+        bigboxcontainer3.className = "open";
+    }
+    };
+dotsimage4.onclick = function(){
+   if(quotebox4.className == "open"){
+        //shrink box
+        quotebox4.className = "";
+        showmore4.className = "";
+        bigboxcontainer4.className = "";
+    } else {
+        //expand the box
+        quotebox4.className = "open";
+        showmore4.className = "open";
+        bigboxcontainer4.className = "open";
+    }
+    };
+dotsimage5.onclick = function(){
+   if(quotebox5.className == "open"){
+        //shrink box
+        quotebox5.className = "";
+        showmore5.className = "";
+        bigboxcontainer5.className = "";
+    } else {
+        //expand the box
+        quotebox5.className = "open";
+        showmore5.className = "open";
+        bigboxcontainer5.className = "open";
+    }
+    };
+dotsimage6.onclick = function(){
+   if(quotebox6.className == "open"){
+        //shrink box
+        quotebox6.className = "";
+        showmore6.className = "";
+        bigboxcontainer6.className = "";
+    } else {
+        //expand the box
+        quotebox6.className = "open";
+        showmore6.className = "open";
+        bigboxcontainer6.className = "open";
+    }
+    };
+dotsimage7.onclick = function(){
+   if(quotebox7.className == "open"){
+        //shrink box
+        quotebox7.className = "";
+        showmore7.className = "";
+        bigboxcontainer7.className = "";
+    } else {
+        //expand the box
+        quotebox7.className = "open";
+        showmore7.className = "open";
+        bigboxcontainer7.className = "open";
+    }
+    };
+dotsimage8.onclick = function(){
+   if(quotebox8.className == "open"){
+        //shrink box
+        quotebox8.className = "";
+        showmore8.className = "";
+        bigboxcontainer8.className = "";
+    } else {
+        //expand the box
+        quotebox8.className = "open";
+        showmore8.className = "open";
+        bigboxcontainer8.className = "open";
+    }
+    };
+dotsimage9.onclick = function(){
+   if(quotebox9.className == "open"){
+        //shrink box
+        quotebox9.className = "";
+        showmore9.className = "";
+        bigboxcontainer9.className = "";
+    } else {
+        //expand the box
+        quotebox9.className = "open";
+        showmore9.className = "open";
+        bigboxcontainer9.className = "open";
+    }
+    };
+dotsimage10.onclick = function(){
+   if(quotebox10.className == "open"){
+        //shrink box
+        quotebox10.className = "";
+        showmore10.className = "";
+        bigboxcontainer10.className = "";
+    } else {
+        //expand the box
+        quotebox10.className = "open";
+        showmore10.className = "open";
+        bigboxcontainer10.className = "open";
+    }
+    };
+dotsimage11.onclick = function(){
+   if(quotebox11.className == "open"){
+        //shrink box
+        quotebox11.className = "";
+        showmore11.className = "";
+        bigboxcontainer11.className = "";
+    } else {
+        //expand the box
+        quotebox11.className = "open";
+        showmore11.className = "open";
+        bigboxcontainer11.className = "open";
+    }
+    };
+dotsimage12.onclick = function(){
+   if(quotebox12.className == "open"){
+        //shrink box
+        quotebox12.className = "";
+        showmore12.className = "";
+        bigboxcontainer12.className = "";
+    } else {
+        //expand the box
+        quotebox12.className = "open";
+        showmore12.className = "open";
+        bigboxcontainer12.className = "open";
+    }
+    };
+dotsimage13.onclick = function(){
+   if(quotebox13.className == "open"){
+        //shrink box
+        quotebox13.className = "";
+        showmore13.className = "";
+        bigboxcontainer13.className = "";
+    } else {
+        //expand the box
+        quotebox13.className = "open";
+        showmore13.className = "open";
+        bigboxcontainer13.className = "open";
+    }
+    };
+dotsimage14.onclick = function(){
+   if(quotebox14.className == "open"){
+        //shrink box
+        quotebox14.className = "";
+        showmore14.className = "";
+        bigboxcontainer14.className = "";
+    } else {
+        //expand the box
+        quotebox14.className = "open";
+        showmore14.className = "open";
+        bigboxcontainer14.className = "open";
+    }
+    };
+dotsimage15.onclick = function(){
+   if(quotebox15.className == "open"){
+        //shrink box
+        quotebox15.className = "";
+        showmore15.className = "";
+        bigboxcontainer15.className = "";
+    } else {
+        //expand the box
+        quotebox15.className = "open";
+        showmore15.className = "open";
+        bigboxcontainer15.className = "open";
+    }
+    };
+dotsimage16.onclick = function(){
+   if(quotebox16.className == "open"){
+        //shrink box
+        quotebox16.className = "";
+        showmore16.className = "";
+        bigboxcontainer16.className = "";
+    } else {
+        //expand the box
+        quotebox16.className = "open";
+        showmore16.className = "open";
+        bigboxcontainer16.className = "open";
+    }
+    };
+dotsimage17.onclick = function(){
+   if(quotebox17.className == "open"){
+        //shrink box
+        quotebox17.className = "";
+        showmore17.className = "";
+        bigboxcontainer17.className = "";
+    } else {
+        //expand the box
+        quotebox17.className = "open";
+        showmore17.className = "open";
+        bigboxcontainer17.className = "open";
+    }
+    };
+dotsimage18.onclick = function(){
+   if(quotebox18.className == "open"){
+        //shrink box
+        quotebox18.className = "";
+        showmore18.className = "";
+        bigboxcontainer18.className = "";
+    } else {
+        //expand the box
+        quotebox18.className = "open";
+        showmore18.className = "open";
+        bigboxcontainer18.className = "open";
+    }
+    };
+dotsimage19.onclick = function(){
+   if(quotebox19.className == "open"){
+        //shrink box
+        quotebox19.className = "";
+        showmore19.className = "";
+        bigboxcontainer19.className = "";
+    } else {
+        //expand the box
+        quotebox19.className = "open";
+        showmore19.className = "open";
+        bigboxcontainer19.className = "open";
+    }
+    };
+
+// ADD MORE BASED ON NUMBER OF MODUALS^
+//VARIABLES NEEDED FOR QUOTE SELCTION
+var openNEW = document.getElementById("popupsection");
+var openQUOTE = document.getElementsByClassName("quoteCC");
+var openAUTHOR = document.getElementsByClassName("authorCC");
+var quoteboxes = document.getElementsByClassName("boxCC");
+
+/***************************/
+var mainHEADER = document.getElementById("headerbar");
+var HOMEHEADER = document.getElementById("HOMEheaderbar");
+var POPUPHEADER = document.getElementById("POPUPheaderbar");
+/***************************/
+
+//SCROLL BACK TO TOP
+function toppopupFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+//SCROLLING TO POINTS
+var scrollpoint;
+var scrolltobox;
+scrolltobox = ("quotebox9");
+
+/***************************/
+//POP UP ANIMATION AND SETTING CONTENTS
+// CHANGE QUOTE BOX NUMBER AND VALUE OF N AS PER
+arrowimage0.onclick = function(){
+    var N = 0;
+    
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        } 
+        toppopupFunction();
+    }
+    
+    if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+        
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    
+    scrolltobox = ("quotebox0");
+}; 
+arrowimage1.onclick = function(){
+    var N = 1;
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+        toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox1");
+}; 
+arrowimage2.onclick = function(){
+    var N = 2;
+   
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+        toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox2");
+}; 
+arrowimage3.onclick = function(){
+    var N = 3;
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+      toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox3");
+};
+arrowimage4.onclick = function(){
+    var N = 4;
+  
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }  
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox4");
+}; 
+arrowimage5.onclick = function(){
+    var N = 5;
+   
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        } 
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox5");
+}; 
+arrowimage6.onclick = function(){
+    var N = 6;
+    
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox6");
+}; 
+arrowimage7.onclick = function(){
+    var N = 7;
+    
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }  
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox7");
+}; 
+arrowimage8.onclick = function(){
+    var N = 8;
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+        toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox8");
+}; 
+arrowimage9.onclick = function(){
+    var N = 9;
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }
+        toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox9");
+}; 
+arrowimage10.onclick = function(){
+    var N = 10;
+    
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }  
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox10");
+}; 
+arrowimage11.onclick = function(){
+    var N = 11;
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }  
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox11");
+}; 
+arrowimage12.onclick = function(){
+    var N = 12;
+   
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }  
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox12");
+}; 
+arrowimage13.onclick = function(){
+    var N = 13;
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }  
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox13");
+};
+arrowimage14.onclick = function(){
+    var N = 14;
+  
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }  
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox14");
+}; 
+arrowimage15.onclick = function(){
+    var N = 15;
+   
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        } 
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox15");
+}; 
+arrowimage16.onclick = function(){
+    var N = 16;
+    
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox16");
+}; 
+arrowimage17.onclick = function(){
+    var N = 17;
+    
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }  
+                toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox17");
+}; 
+arrowimage18.onclick = function(){
+    var N = 18;
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+        toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox18");
+}; 
+arrowimage19.onclick = function(){
+    var N = 19;
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }   
+    } else {
+        //EXPAND THE BOX AND SET THE QUOTE
+        openNEW.className = "open";
+        for(var i = 0; i < openQUOTE.length; i++) {
+        openQUOTE[i].innerHTML = quotes[RandNumArray[N]];
+        }   
+        for(var i = 0; i < openAUTHOR.length; i++) {
+        openAUTHOR[i].innerHTML = authors[RandNumArray[N]];
+        }
+        toppopupFunction();
+    }
+        if(HOMEHEADER.className == "HOMEHEADactive"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADhidden";
+    } else {
+        HOMEHEADER.className = "HOMEHEADhidden";
+    }
+    
+    if(POPUPHEADER.className == "POPUPhidden"){
+        //shrink box
+        POPUPHEADER.className = "POPUPactive";
+        mainHEADER.style='position: fixed';
+        howtousebig.className = "closed";
+    } else {
+        POPUPHEADER.className = "POPUPactive";
+    }
+    scrolltobox = ("quotebox19");
+}; 
+/***************************/
+
+minusimage0.onclick = function() {
+   if(quotebox0.className == "minus"){
+        //shrink box
+        quotebox0.className = "";
+        bigboxcontainer0.className = "";
+    } else {
+        //expand the box
+        quotebox0.className = "minus";
+        bigboxcontainer0.className = "open";
+    }
+    };
+minusimage1.onclick = function() {
+   if(quotebox1.className == "minus"){
+        //shrink box
+        quotebox1.className = "";
+        bigboxcontainer1.className = "";
+    } else {
+        //expand the box
+        quotebox1.className = "minus";
+        bigboxcontainer1.className = "open";
+    }
+    };
+minusimage2.onclick = function() {
+   if(quotebox2.className == "minus"){
+        //shrink box
+        quotebox2.className = "";
+        bigboxcontainer2.className = "";
+    } else {
+        //expand the box
+        quotebox2.className = "minus";
+        bigboxcontainer2.className = "open";
+    }
+    };
+minusimage3.onclick = function() {
+   if(quotebox3.className == "minus"){
+        //shrink box
+        quotebox3.className = "";
+        bigboxcontainer3.className = "";
+    } else {
+        //expand the box
+        quotebox3.className = "minus";
+        bigboxcontainer3.className = "open";
+    }
+    };
+minusimage4.onclick = function() {
+   if(quotebox4.className == "minus"){
+        //shrink box
+        quotebox4.className = "";
+        bigboxcontainer4.className = "";
+    } else {
+        //expand the box
+        quotebox4.className = "minus";
+        bigboxcontainer4.className = "open";
+    }
+    };
+minusimage5.onclick = function() {
+   if(quotebox5.className == "minus"){
+        //shrink box
+        quotebox5.className = "";
+        bigboxcontainer5.className = "";
+    } else {
+        //expand the box
+        quotebox5.className = "minus";
+        bigboxcontainer5.className = "open";
+    }
+    };
+minusimage6.onclick = function() {
+   if(quotebox6.className == "minus"){
+        //shrink box
+        quotebox6.className = "";
+        bigboxcontainer6.className = "";
+    } else {
+        //expand the box
+        quotebox6.className = "minus";
+        bigboxcontainer6.className = "open";
+    }
+    };
+minusimage7.onclick = function() {
+   if(quotebox7.className == "minus"){
+        //shrink box
+        quotebox7.className = "";
+        bigboxcontainer7.className = "";
+    } else {
+        //expand the box
+        quotebox7.className = "minus";
+        bigboxcontainer7.className = "open";
+    }
+    };
+minusimage8.onclick = function() {
+   if(quotebox8.className == "minus"){
+        //shrink box
+        quotebox8.className = "";
+        bigboxcontainer8.className = "";
+    } else {
+        //expand the box
+        quotebox8.className = "minus";
+        bigboxcontainer8.className = "open";
+    }
+    };
+minusimage9.onclick = function() {
+   if(quotebox9.className == "minus"){
+        //shrink box
+        quotebox9.className = "";
+        bigboxcontainer9.className = "";
+    } else {
+        //expand the box
+        quotebox9.className = "minus";
+        bigboxcontainer9.className = "open";
+    }
+    };
+minusimage10.onclick = function() {
+   if(quotebox10.className == "minus"){
+        //shrink box
+        quotebox10.className = "";
+        bigboxcontainer10.className = "";
+    } else {
+        //expand the box
+        quotebox10.className = "minus";
+        bigboxcontainer10.className = "open";
+    }
+    };
+minusimage11.onclick = function() {
+   if(quotebox11.className == "minus"){
+        //shrink box
+        quotebox11.className = "";
+        bigboxcontainer11.className = "";
+    } else {
+        //expand the box
+        quotebox11.className = "minus";
+        bigboxcontainer11.className = "open";
+    }
+    };
+minusimage12.onclick = function() {
+   if(quotebox12.className == "minus"){
+        //shrink box
+        quotebox12.className = "";
+        bigboxcontainer12.className = "";
+    } else {
+        //expand the box
+        quotebox12.className = "minus";
+        bigboxcontainer12.className = "open";
+    }
+    };
+minusimage13.onclick = function() {
+   if(quotebox13.className == "minus"){
+        //shrink box
+        quotebox13.className = "";
+        bigboxcontainer13.className = "";
+    } else {
+        //expand the box
+        quotebox13.className = "minus";
+        bigboxcontainer13.className = "open";
+    }
+    };
+minusimage14.onclick = function() {
+   if(quotebox14.className == "minus"){
+        //shrink box
+        quotebox14.className = "";
+        bigboxcontainer14.className = "";
+    } else {
+        //expand the box
+        quotebox14.className = "minus";
+        bigboxcontainer14.className = "open";
+    }
+    };
+minusimage15.onclick = function() {
+   if(quotebox15.className == "minus"){
+        //shrink box
+        quotebox15.className = "";
+        bigboxcontainer15.className = "";
+    } else {
+        //expand the box
+        quotebox15.className = "minus";
+        bigboxcontainer15.className = "open";
+    }
+    };
+minusimage16.onclick = function() {
+   if(quotebox16.className == "minus"){
+        //shrink box
+        quotebox16.className = "";
+        bigboxcontainer16.className = "";
+    } else {
+        //expand the box
+        quotebox16.className = "minus";
+        bigboxcontainer16.className = "open";
+    }
+    };
+minusimage17.onclick = function() {
+   if(quotebox17.className == "minus"){
+        //shrink box
+        quotebox17.className = "";
+        bigboxcontainer17.className = "";
+    } else {
+        //expand the box
+        quotebox17.className = "minus";
+        bigboxcontainer17.className = "open";
+    }
+    };
+minusimage18.onclick = function() {
+   if(quotebox18.className == "minus"){
+        //shrink box
+        quotebox18.className = "";
+        bigboxcontainer18.className = "";
+    } else {
+        //expand the box
+        quotebox18.className = "minus";
+        bigboxcontainer18.className = "open";
+    }
+    };
+minusimage19.onclick = function() {
+   if(quotebox19.className == "minus"){
+        //shrink box
+        quotebox19.className = "";
+        bigboxcontainer19.className = "";
+    } else {
+        //expand the box
+        quotebox19.className = "minus";
+        bigboxcontainer19.className = "open";
+    }
+    };
+
+function Scrollto(){
+document.getElementById(scrolltobox).scrollIntoView();
+}
+
+
+/***************************/
+var POPUPbacktohome = document.getElementById("POPUPbacktohome");
+//CLOSE POP UP
+POPUPbacktohome.onclick = function(){
+    if(openNEW.className == "open"){
+        //shrink box
+        openNEW.className = "closed";
+    } else {
+        //expand the box
+        openNEW.className = "open";
+    }
+    mainHEADER.style='position: relative';
+    if(HOMEHEADER.className == "HOMEHEADhidden"){
+        //shrink box
+        HOMEHEADER.className = "HOMEHEADactive";
+        
+    } else {
+        HOMEHEADER.className = "HOMEHEADactive";
+    }
+    
+    if(POPUPHEADER.className == "POPUPactive"){
+        //shrink box
+        POPUPHEADER.className = "POPUPhidden";
+        
+    } else {
+        POPUPHEADER.className = "POPUPhidden";
+    }
+    
+    Scrollto();
+    
+};
+/***************************/
+
+howtoclose.onclick = function(){
+        howtousebig.className = "closed";
+}
+
+headerbarhelp.onclick = function(){
+    if(howtousebig.className == "closed"){
+        //shrink box
+        howtousebig.className = "open";
+    } else {
+        //expand the box
+        howtousebig.className = "closed";
+    }
+}
+
+/***************************/
+var HIDEheaderbutton = document.getElementById("POPUPhideheader");
+HIDEheaderbutton.onclick = function(){
+ 
+    if(mainHEADER.className == "nav-down"){
+        //shrink box
+        mainHEADER.className = "nav-up";
+    } else {
+        mainHEADER.className = "nav-up";
+    } 
+};
+popupsection.onclick = function(){
+ 
+    if(mainHEADER.className == "nav-up"){
+        //shrink box
+        mainHEADER.className = "nav-down";
+    } else {
+        if(mainHEADER.className == "nav-down");
+        //shrink box
+        mainHEADER.className = "nav-up";
+    }
+    
+};
+/***************************/
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("headerbarlogo").style.display = "block";
+  } else {
+    document.getElementById("headerbarlogo").style.display = "none";
+  }
+}
+
+
+</script>
+    
+    <style>html{
+    font-family: "helvetica";
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: crosshair;
+}
+body{
+    margin:0;
+}
+
+
+
+#headerbar{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    justify-content: space-between;
+    max-height: 10%;
+
+
+}
+
+#HOMEheaderbar{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+ 
+    align-items: center;
+    padding-top: 0;
+    background-color: black;
+    z-index: 100;
+    justify-content: space-between;
+     transition-property: all;
+    transition: 1s;
+   
+  
+}
+#POPUPheaderbar{
+     height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+ 
+    align-items: center;
+    padding-top: 0;
+    background-color: black;
+    z-index: 100;
+    justify-content: space-between;
+     transition-property: all;
+    transition: 1s;
+
+}
+
+.POPUPhidden{
+    display: none;
+}
+.POPUPactive{
+    display: flex;
+}
+
+.HOMEHEADhidden{
+    display: none;
+}
+.HOMEHEADactive{
+    display: flex;
+}
+
+
+
+
+
+.footerbar{ /*footer*/
+ height: 10%;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    background-color: black;
+    z-index: 100;
+justify-content: center;
+    max-height: 10%;  
+}
+
+.headerbarlogo{
+    padding: 0;
+    width: auto;
+    height: 80%;
+    
+}
+.footerbarlogo{
+ padding: 0;
+    width: auto;
+    height: 80%;
+    
+}
+
+.loadmorebutton{
+    padding: 0;
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+
+
+button{
+    all: initial;
+    all: inherit;
+    all: unset;
+}
+
+.headerbarhelp{
+    position: fixed;
+    padding: 0;
+    width: auto;
+    height: 80%;
+    max-height: 80%;
+}
+#howtousebig.open{
+    height:  auto;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     z-index: 1000;
+    top:10%;
+}
+
+.howtousecontents{
+    padding-top: 1%;
+    width: 100%;
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.howto-bottomtext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;  
+}
+.howtouse{
+    display: flex; 
+}
+.howtolink{
+    font-size: 10px;
+    width: 100%;
+    text-align: right;
+    padding-right: 2%;
+}
+.howto-box{
+    max-width: 50%;
+    width: 50%;
+    padding: 2%;
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;   
+}
+#howtoclose{
+    color: dimgrey;
+    cursor: pointer;
+    padding: 2%;   
+}
+#howtousebig.closed{
+   display: none;
+    position: fixed;
+}
+
+
+
+
+.backtositeimg {
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+   
+}
+.backtohomeimg {
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+      
+}
+#backtohomeimg{
+    width:100%;
+    max-width: 100%; 
+    height: 10%;
+    position:fixed;
+    transition-property: all;
+    transition: 2s;
+
+    display:flex;
+    justify-content: center;
+    
+    color: white;
+    background-color: black;
+    z-index: 1000;
+
+}
+
+#POPUPhideheader{
+    font-size: 20px;
+    letter-spacing: 10px;
+    padding-right: 1%;
+    color: WHITE;
+    
+}
+
+.popupreturnbutton img{
+-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.imagegallerytitle{
+    padding: 0;
+    width: auto;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-weight: bold;
+}
+/*NUMBER OF BLOCKS NEEDS ADDING HERE*/
+#bigboxcontainer0,
+#bigboxcontainer1,
+#bigboxcontainer2,
+#bigboxcontainer3,
+#bigboxcontainer4,
+#bigboxcontainer5,
+#bigboxcontainer6,
+#bigboxcontainer7,
+#bigboxcontainer8,
+#bigboxcontainer9,
+#bigboxcontainer10,
+#bigboxcontainer11,
+#bigboxcontainer12,
+#bigboxcontainer13,
+#bigboxcontainer14,
+#bigboxcontainer15,
+#bigboxcontainer16,
+#bigboxcontainer17,
+#bigboxcontainer18,
+#bigboxcontainer19
+{
+    transition: 1s;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+    background-size: cover;
+    background-color: deeppink;
+}
+
+#bigboxcontainer0.open,
+#bigboxcontainer1.open,
+#bigboxcontainer2.open,
+#bigboxcontainer3.open,
+#bigboxcontainer4.open,
+#bigboxcontainer5.open,
+#bigboxcontainer6.open,
+#bigboxcontainer7.open,
+#bigboxcontainer8.open,
+#bigboxcontainer9.open,
+#bigboxcontainer10.open,
+#bigboxcontainer11.open,
+#bigboxcontainer12.open,
+#bigboxcontainer13.open,
+#bigboxcontainer14.open,
+#bigboxcontainer15.open,
+#bigboxcontainer16.open,
+#bigboxcontainer17.open,
+#bigboxcontainer18.open,
+#bigboxcontainer19.open
+{
+    background-position: center;
+    overflow: visible;
+    transition: 1s;
+    
+}
+
+#quotebox,
+#quotebox0,
+#quotebox1,
+#quotebox2,
+#quotebox3,
+#quotebox4,
+#quotebox5,
+#quotebox6,
+#quotebox7,
+#quotebox8,
+#quotebox9,
+#quotebox10,
+#quotebox11,
+#quotebox12,
+#quotebox13,
+#quotebox14,
+#quotebox15,
+#quotebox16,
+#quotebox17,
+#quotebox18,
+#quotebox19
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    max-height: 40%;
+    transition: 2s;
+    color: white;
+    transition: 2s;
+}
+
+#quotebox.open,
+#quotebox0.open,
+#quotebox1.open,
+#quotebox2.open,
+#quotebox3.open,
+#quotebox4.open,
+#quotebox5.open,
+#quotebox6.open,
+#quotebox7.open,
+#quotebox8.open,
+#quotebox9.open,
+#quotebox10.open,
+#quotebox11.open,
+#quotebox12.open,
+#quotebox13.open,
+#quotebox14.open,
+#quotebox15.open,
+#quotebox16.open,
+#quotebox17.open,
+#quotebox18.open,
+#quotebox19.open
+{
+    max-height: 150%;
+    transition: 2s;
+}
+    
+
+#quotebox.minus,
+#quotebox0.minus,
+#quotebox1.minus,
+#quotebox2.minus,
+#quotebox3.minus,
+#quotebox4.minus,
+#quotebox5.minus,
+#quotebox6.minus,
+#quotebox7.minus,
+#quotebox8.minus,
+#quotebox9.minus,
+#quotebox10.minus,
+#quotebox11.minus,
+#quotebox12.minus,
+#quotebox13.minus,
+#quotebox14.minus,
+#quotebox15.minus,
+#quotebox16.minus,
+#quotebox17.minus,
+#quotebox18.minus,
+#quotebox19.minus
+{
+    max-height: 150%;
+    transition: 2s;
+    opacity: 0;
+}
+    
+
+#quoteboxC{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    transition: 2s;
+    color: white;
+    max-height: 150%;
+}
+
+
+#quotecontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    width: 70%;
+    max-height: 40%;
+    color: white;
+    transition: 2s;
+}
+
+#quote{
+    margin-bottom: auto;
+    font-size: 2.5rem;
+}
+
+
+#line{
+    background-color: white;
+    width: 1px;
+    min-height: 50px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#author{
+    font-size: 0.75em;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+#authorcontainer{
+    font-size: 2rem;
+    border: 1px solid white; 
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:50px;
+    
+}
+
+#creditbar0,#creditbar1,#creditbar2,#creditbar3,#creditbar4,#creditbar5,#creditbar6,#creditbar7,#creditbar8,#creditbar9,#creditbar10,#creditbar11,#creditbar12,#creditbar13,#creditbar14,#creditbar15,#creditbar16,#creditbar17,#creditbar18,#creditbar19,#creditbarC{
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    color: white;
+    
+    
+}
+
+#credittext0,#credittext1,#credittext2,#credittext3,#credittext4,#credittext5,#credittext6,#credittext7,#credittext8,#credittext9,#credittext10,#credittext11,#credittext12,#credittext13,#credittext14,#credittext15,#credittext16,#credittext17,#credittext18,#credittext19, #creditlink0,#creditlink1,#creditlink2,#creditlink3,#creditlink4,#creditlink5,#creditlink6,#creditlink7,#creditlink8,#creditlink9,#creditlink10,#creditlink11,#creditlink12,#creditlink13,#creditlink14,#creditlink15,#creditlink16,#creditlink17,#creditlink18,#creditlink19,#creditClink{
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+}
+
+a{
+color: orange;
+outline: none;
+}
+
+a:any-link{
+color: orange;
+text-decoration: none;
+}
+
+
+a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+
+
+
+
+/* expand button styles*/
+#showmore0,#showmore1,#showmore2,#showmore3,#showmore4,#showmore5,#showmore6,#showmore7,#showmore8,#showmore9,#showmore10,#showmore11,#showmore12,#showmore13,#showmore14,#showmore15,#showmore16,#showmore17,#showmore18,#showmore19{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    margin: auto;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+    
+img{
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+#chosenquotescreenC{
+  height:100%;
+  display: flex;
+  flex-direction: column;
+
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: deeppink;
+}
+
+#chosenquotescreenC h1{
+    color: white;
+}
+
+#popupsection{
+    right: -100%;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 120%;
+    max-height: 1500%;
+    z-index: 3;
+    top: 0;
+    transition-property: right;
+    transition: 0.3s;
+}
+
+#popupsection.open{
+    opacity: 1;
+    display: block;
+    position: absolute;
+    right: 0;
+    transition-property: right;
+    transition: 0.3s;
+}
+
+
+.nav-down {
+    top: 0;
+    transition-property: all;
+    transition: 1s;
+}
+
+
+.nav-up {
+    top: -10%;
+    transition-property: all;
+    transition: 1s;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    #authorcontainer{
+    font-size: 1.5rem;
+}
+    #quote{
+
+    font-size: 2rem;
+}
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  #authorcontainer{
+    font-size: 1.5rem;
+}
+    #quote{
+
+    font-size: 2rem;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+#HOMEbacktosite{
+display: none;        
+}
+    
+#POPUPimagegallerytitle{
+    height: 60%;
+}
+    
+
+#POPUPhideheader{
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-right: 3%;
+    color: WHITE;
+    
+}
+   
+    
+
+.headerbarlogo{
+    margin-right:0%;
+    height: 50%;
+    padding-left: 5%;
+} 
+   
+.imagegallerytitle{
+    padding: 0;
+    width: auto;
+    height: 100%;
+    
+}
+.popupreturnbutton{
+    width: 40px;
+    height: 40px;
+    padding-left:0%;
+    
+    
+}
+  
+    
+}
+
+
+</style>
+    
+    <div class="footerbar">
+        
+        <button onclick="toppopupFunction()"  class="footerbarlogo" title="Go to top"> 
+            
+            <input type="image"  class="loadmorebutton" src= "https://rossshawdesigncom.files.wordpress.com/2019/05/soul_aid_loadmore.png" onClick="document.location.reload(true)">
+          
+        </button>
+        
+    </div>
+    
+    
+</body>
+</html>
